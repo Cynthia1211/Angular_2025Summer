@@ -1,0 +1,37 @@
+<h3>Contact Me:</h3>
+<ul>
+    @for (contactInfo of myContactInfo; track contactInfo) {
+        <li>
+            {{contactInfo.desc}} {{contactInfo.detail}}
+        </li>
+    }
+
+    <form #f="ngForm" (ngSubmit)=onSubmit(f) >
+        <hr>
+        <button mat-raised-button style="color: rgb(101, 164, 198);" type="submit" [disabled]="!f.valid">Submit</button>
+        <hr>
+            <div>
+                <mat-form-field appearance="fill">
+                    <mat-label>Your Name</mat-label>
+                    <input matInput id="name" name="name" ngModel required #name="ngModel"
+                    placeholder="Your Name">
+                </mat-form-field>
+
+                <mat-form-field appearance="fill">
+                    <mat-label>Your Email</mat-label>
+                    <input matInput id="email" name="email" ngModel required 
+                    placeholder="Your Email">
+
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="fill" class="commentField">
+                    <mat-label>Your Comment</mat-label>
+                    <textarea matInput id="comment" name="comment" ngModel required 
+                    placeholder="Your Comment"></textarea>
+
+                </mat-form-field>
+            </div>
+    </form>
+
+</ul>

@@ -1,0 +1,65 @@
+:root {
+  --foreground: rgb(9, 13, 46);
+  --background: rgb(191, 219, 251);
+  --text-foreground: rgb(172, 247, 255);
+  --text-background: rgb(9, 13, 46);
+  --link-foreground:#50c3f4;
+  --link-background:#1a1e56;
+}
+
+.dark {
+  --foreground: rgb(28, 42, 81);
+  --background: rgb(34, 50, 67);
+  --text-foreground: rgb(142, 174, 183);
+  --text-background: rgb(181, 239, 255);
+  --link-foreground:#25c5c8;
+  --link-background:#00fbff;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+header,
+footer {
+  background-color: var(--foreground);
+  padding: 8px;
+  margin: 2px;
+  color: var(--text-foreground);
+}
+
+main a {
+  color: var(--link-background);
+}
+
+header a {
+  color: var(--link-foreground);
+}
+
+main {
+  background-color: var(--background);
+  padding: 8px;
+  margin: 8px 0px;
+  color: var(--text-background);
+}
+
+.projects {
+  max-width: 350px;
+  color: var(--text-foreground);
+  background-color: var(--link-foreground);
+  font-size: 15;
+}
+
+.iconsize {
+  transform: scale(1);
+  color: var(--text-foreground);
+}
+
+app-projects > section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+

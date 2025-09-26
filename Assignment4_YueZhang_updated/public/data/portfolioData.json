@@ -1,0 +1,76 @@
+{
+    "about": {
+        "name": "Yue Zhang",
+        "role": "Student",
+        "motto": "Control what you can, let go of what you can't.",
+        "aboutMe": "I have several years of experience in QA, mainly in the financial industry, and I’m currently studying Software Development at Sheridan College. I’m familiar with Python, Java, JavaScript, HTML, and SQL, and have experience working with Node.js, Angular, and Spring Boot. I’m also comfortable using tools like JIRA and QC for project management. I’m a quick learner, self-driven, and capable of handling multiple tasks efficiently."
+    },
+
+    "contact":[
+      {
+        "desc": "Tel:",
+        "detail": "647-937-9999"
+      },
+      {
+        "desc": "Email:",
+        "detail": "yue.cynthia.zhang@gmail.com"
+      },
+      {
+        "desc": "Addr:",
+        "detail": "Mississauga, ON, Canada"
+      }
+    ],
+
+    "technologies": [
+    { "technologie": "Angular" },
+    { "technologie": "TypeScript" },
+    { "technologie": "HTML" }
+    ],
+
+
+    "socialMedias": [
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/yue-zhang-4805b6a2/"
+      }
+    ],
+
+    "projects": [
+      {
+        "id": 1,
+        "title": "FLY & FEAST",
+        "imgUrl": "images/project1.jpg",
+        "description": "This is a falling game made with JavaScript. It was an assignment for the JavaScript course.",
+        "important": true
+      },
+      {
+        "id": 2,
+        "title": "Food Truck",
+        "imgUrl": "images/project2.jpg",
+        "description": "This is a food truck order system built as a Node.js web application.",
+        "important": true
+      },
+      {
+        "id": 3,
+        "title": "Games WebPage",
+        "imgUrl": "images/project3.jpg",
+        "description": "This is a static web page made with HTML. It uses both grid and flex layouts, and is decorated with CSS.",
+        "important": false
+      },
+      {
+        "id": 4,
+        "title": "Credit Card App",
+        "imgUrl": "images/project4.jpg",
+        "description": "This is a credit card app made with Java, which supports purchases and payments.",
+        "important": false
+      },
+      {
+        "id": 5,
+        "title": "Song App",
+        "imgUrl": "images/project5.jpg",
+        "description": "This is a web app made with Spring Boot. It was an in-class exercise for the Java 3 course.",
+        "important": true
+      }
+    ]
+    
+}

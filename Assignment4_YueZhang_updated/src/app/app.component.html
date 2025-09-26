@@ -1,0 +1,29 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+      rel="stylesheet">
+
+<head>
+  <meta charset="utf-8">
+  <title> Main Page - Portfolio of Yue Zhang </title>
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Yue Zhang">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body [ngClass]="{dark: darkMode === true }">
+  <header>
+    <app-header></app-header>
+    <p><input type="checkbox" [(ngModel)]="darkMode"> Dark Mode</p>
+    <a routerLink="/home" routerLinkActive="activebutton" >Home</a>
+    <span style="margin: 0 10px;"></span>
+    <a routerLink="/about" routerLinkActive="activebutton" >About Me</a>
+    <span style="margin: 0 10px;"></span>
+    <a routerLink="/contact" routerLinkActive="activebutton">Contact Me</a>
+  </header>
+  <main>
+    
+    <router-outlet></router-outlet>
+  </main>
+  <footer>
+    <app-footer></app-footer>
+  </footer>
+</body>
