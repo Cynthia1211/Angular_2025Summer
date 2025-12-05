@@ -16,7 +16,7 @@ jobs:
       uses: aws-actions/amazon-s3-sync-action@v1
       with:
         source: .
-        destination: s3://yuezhang.site
+        destination: s3://yue-zhang-2025
         region: ca-central-1
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
